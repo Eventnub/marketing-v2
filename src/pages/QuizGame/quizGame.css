@@ -1,0 +1,27 @@
+.quiz-game {
+  min-height: 100vh;
+}
+
+.quiz-container {
+  width: 800px;
+  max-width: 90%;
+}
+
+.next-btn {
+  background-color: #1358a5 !important;
+  border-radius: 0 !important;
+  padding: 0.8rem;
+  margin: 0.5rem;
+  width: 200px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.next-btn:hover {
+  color: #fffd83 !important;
+}
+
+.next-btn-disabled {
+  background-color: #f3f1f1 !important;
+  color: #2c2c2c !important;
+}

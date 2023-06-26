@@ -1,0 +1,35 @@
+.quiz-question {
+  background-image: url("../../assets/rectangle01.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  color: #ffffff;
+}
+
+.position {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.btn-option {
+  background-color: #acd0f8 !important;
+  border-radius: 0 !important;
+  border: 2px solid #1358a5;
+  margin: 0.5rem;
+  width: 200px;
+  color: #1358a5;
+  font-weight: 800;
+  text-align: left;
+}
+
+.btn-option:hover {
+  color: #1358a5;
+  border: 2px solid #ffd5c3;
+}
+
+.btn-option-selected {
+  background-color: #ffd5c3 !important;
+  border: 2px solid #1358a5;
+}

@@ -1,0 +1,70 @@
+.submit-quiz {
+  min-height: 100vh;
+}
+
+.review-question {
+  background-color: #1358a5;
+  color: #ffffff;
+  border-radius: 0.6rem;
+  padding: 2rem;
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+.review-question h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.review-question h2 {
+  font-weight: 300;
+  font-size: 1rem;
+  color: #acd0f8;
+}
+
+.review-question p {
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #acd0f8;
+}
+
+.instruction1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.instruction2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.submit-quiz input {
+  font-size: 1rem;
+  color: rgb(92, 92, 92);
+}
+
+.submit-quiz input:-webkit-autofill,
+.submit-quiz input:-webkit-autofill:hover,
+.submit-quiz input:-webkit-autofill:focus {
+  -webkit-text-fill-color: rgb(92, 92, 92);
+  -webkit-box-shadow: 0 0 0px 1000px #00000000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input {
+  background: transparent !important;
+}
+
+@media only screen and (max-width: 750px) {
+  .review-question {
+    width: 100%;
+  }
+}

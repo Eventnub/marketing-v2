@@ -1,0 +1,82 @@
+.row {
+  overflow-x: hidden;
+  width: 100% !important;
+}
+
+.left-side {
+  background-image: url("../../assets/peopleAndEvent.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main {
+  margin-bottom: 6rem;
+}
+
+.company-name {
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  font-size: 1.2rem;
+  color: #1358a5;
+}
+
+.intro {
+  font-weight: 700;
+}
+
+.info {
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+input {
+  margin-bottom: 1.5rem;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  font-size: 16px;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-size: 16px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  font-size: 16px;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-size: 16px;
+}
+
+.subscribe input {
+  font-size: 1rem;
+  color: rgb(92, 92, 92);
+}
+
+.subscribe input:-webkit-autofill,
+.subscribe input:-webkit-autofill:hover,
+.subscribe input:-webkit-autofill:focus {
+  -webkit-text-fill-color: rgb(92, 92, 92);
+  -webkit-box-shadow: 0 0 0px 1000px #00000000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.btn-custom {
+  background-color: #1358a5 !important;
+  border-radius: 360px !important;
+  padding: 8px 3rem;
+  color: #ffffff;
+}
+
+.btn-custom:hover {
+  color: #ffffff;
+}
